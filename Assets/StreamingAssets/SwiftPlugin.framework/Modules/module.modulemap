@@ -1,0 +1,11 @@
+framework module SwiftPlugin {
+  umbrella header "SwiftPlugin.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftPlugin.Swift {
+    header "SwiftPlugin-Swift.h"
+    requires objc
+}
